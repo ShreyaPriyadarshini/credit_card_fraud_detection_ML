@@ -2,12 +2,12 @@
 This project uses machine learning models to predict fraud transactions from a set of genuine transactions. Several models from baseline to ensemble were used and the best model for the task is found.
 # Dataset
 The dataset contains anonymized credit card transactions with the following features:
--> Time
--> Amount
--> V1 to V28 (PCA-transformed features)
--> Class (Target Variable)
--- 0 = Genuine Transaction
--- 1 = Fraudulent Transaction
+1. Time
+2. Amount
+3. V1 to V28 (PCA-transformed features)
+4. Class (Target Variable)
+   a. 0 = Genuine Transaction
+   b. 1 = Fraudulent Transaction
 Dataset source: Kaggle Credit Card Fraud Detection Dataset
 # Project Workflow
 1. Data loading and exploration
